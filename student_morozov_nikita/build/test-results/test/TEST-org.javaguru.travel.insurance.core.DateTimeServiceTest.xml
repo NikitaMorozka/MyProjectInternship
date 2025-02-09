@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.javaguru.travel.insurance.core.DateTimeServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-02-09T19:55:43" hostname="Nikita.lan" time="0.009">
+  <properties/>
+  <testcase name="checkingNegativeNumber()" classname="org.javaguru.travel.insurance.core.DateTimeServiceTest" time="0.007"/>
+  <testcase name="checkingPositiveNumber()" classname="org.javaguru.travel.insurance.core.DateTimeServiceTest" time="0.0"/>
+  <testcase name="checkingZeroNumber()" classname="org.javaguru.travel.insurance.core.DateTimeServiceTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

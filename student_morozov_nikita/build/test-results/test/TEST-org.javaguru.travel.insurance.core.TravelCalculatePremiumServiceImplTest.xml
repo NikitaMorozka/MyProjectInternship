@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.javaguru.travel.insurance.core.TravelCalculatePremiumServiceImplTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2025-02-09T19:55:43" hostname="Nikita.lan" time="0.036">
+  <properties/>
+  <testcase name="Проверка на передачу полей из объекта validationErrors" classname="org.javaguru.travel.insurance.core.TravelCalculatePremiumServiceImplTest" time="0.021"/>
+  <testcase name="shouldReturnResponseMatchingRequestFieldLastName()" classname="org.javaguru.travel.insurance.core.TravelCalculatePremiumServiceImplTest" time="0.002"/>
+  <testcase name="shouldReturnResponseWithCountErrors()" classname="org.javaguru.travel.insurance.core.TravelCalculatePremiumServiceImplTest" time="0.001"/>
+  <testcase name="shouldReturnResponseMatchingRequestFieldFirstName()" classname="org.javaguru.travel.insurance.core.TravelCalculatePremiumServiceImplTest" time="0.002"/>
+  <testcase name="shouldReturnAgreementPrice()" classname="org.javaguru.travel.insurance.core.TravelCalculatePremiumServiceImplTest" time="0.001"/>
+  <testcase name="shouldReturnResponseWithErrors()" classname="org.javaguru.travel.insurance.core.TravelCalculatePremiumServiceImplTest" time="0.001"/>
+  <testcase name="shouldReturnResponseMatchingRequestFieldDateTo()" classname="org.javaguru.travel.insurance.core.TravelCalculatePremiumServiceImplTest" time="0.001"/>
+  <testcase name="Проверка пустых полей, и вызова конструктора с ошибками" classname="org.javaguru.travel.insurance.core.TravelCalculatePremiumServiceImplTest" time="0.001"/>
+  <testcase name="shouldReturnResponseMatchingRequestFieldDateFrom()" classname="org.javaguru.travel.insurance.core.TravelCalculatePremiumServiceImplTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

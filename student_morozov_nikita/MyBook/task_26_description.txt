@@ -1,0 +1,60 @@
+**Контекст задачи (краткое описание) **
+Разобраться и поэкспериментировать с библиотекой Lombok
+**Что было сделано и как? (краткое описание)**
+Подключил библиотеку через
+
+compileOnly('org.projectlombok:lombok:1.18.32')
+annotationProcessor('org.projectlombok:lombok:1.18.32')
+testCompileOnly('org.projectlombok:lombok:1.18.32')
+testAnnotationProcessor('org.projectlombok:lombok:1.18.32')
+
+**Зачем это было сделано? Чему научился в процессе выполнения задания?**
+
+@Getter - для генерации методов геттер/ можно применить к конкретному полю
+@Setter - для генерации методов cеттер/ можно применить к конкретному полю
+@NoArgsConstructor - для генерации конструктора без параметра
+@ToString - для toString
+@EqualsAndHashCode - для Equals And HashCode
+
+@Data — это комбинация нескольких аннотаций, предназначенная для
+создания классов данных (POJO — Plain Old Java Object). Она автоматически
+генерирует стандартные методы, такие как
+геттеры, сеттеры, методы equals(), hashCode() и toString(), а также конструктор для всех полей.
+
+Аннотация @Value генерирует неизменяемые объекты (immutable objects), где все поля класса считаются final
+и не могут быть изменены после инициализации. Она используется, когда необходимо создать объекты, чьи поля
+нельзя изменять, что обычно встречается в паттерне Value Object.
+*Геттеры, конструктор(для всех полей), equals(), hashCode(), toString(), Поля по умолчанию становятся final
+@RequiredArgsConstructor - генерация конструктора состоящего из final полей
+@RequiredArgsConstructor(access = AccessLevel.PACKAGE) - проставлен модификатор доступа
+
+
+
+@Builder - для паттерна строитель
+----------------------------------
+@Builder
+@ToString
+public class User {
+    private String name;
+    private int age;
+    private String email;
+}
+public class Main {
+    public static void main(String[] args) {
+        User user = User.builder()
+                        .name("John Doe")
+                        .age(30)
+                        .email("john.doe@example.com")
+                        .build();
+
+        System.out.println(user);
+    }
+}
+----------------------------------
+
+**Сколько потратил времени на выполнение задачи?**
+TODO: зафиксируй для себя сколько времени потратил на выполнение этого задания. Можно ли было его сделать быстрее?
+
+
+**Заметки, идеи, предложения в свободной форме**
+TODO: зафиксируй любые свои мысли, эмоции, идеи, размышления связанные с этим заданием.
