@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.javaguru.travel.insurance.core.TravelCalculatePremiumRequestValidatorTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-02-09T19:55:43" hostname="Nikita.lan" time="0.499">
+<testsuite name="org.javaguru.travel.insurance.core.TravelCalculatePremiumRequestValidatorTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-02-09T20:13:02" hostname="Nikita.lan" time="0.485">
   <properties/>
-  <testcase name="FirstName передача пустого значения" classname="org.javaguru.travel.insurance.core.TravelCalculatePremiumRequestValidatorTest" time="0.486"/>
-  <testcase name="FirstName передача заполненного значения" classname="org.javaguru.travel.insurance.core.TravelCalculatePremiumRequestValidatorTest" time="0.003"/>
+  <testcase name="FirstName передача пустого значения" classname="org.javaguru.travel.insurance.core.TravelCalculatePremiumRequestValidatorTest" time="0.473"/>
+  <testcase name="FirstName передача заполненного значения" classname="org.javaguru.travel.insurance.core.TravelCalculatePremiumRequestValidatorTest" time="0.004"/>
   <testcase name="FirstName передача null LastName не Null" classname="org.javaguru.travel.insurance.core.TravelCalculatePremiumRequestValidatorTest" time="0.002"/>
   <testcase name="FirstName передача null" classname="org.javaguru.travel.insurance.core.TravelCalculatePremiumRequestValidatorTest" time="0.002"/>
   <testcase name="FirstName передача null LastName не Null" classname="org.javaguru.travel.insurance.core.TravelCalculatePremiumRequestValidatorTest" time="0.002"/>

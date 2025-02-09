@@ -76,9 +76,6 @@ class TravelCalculatePremiumServiceImplTest {
         assertNotNull(response.getAgreementPrice());
     }
 
-
-
-
     @Test
     public void shouldReturnResponseWithErrors() {
         var request = new TravelCalculatePremiumRequest();
